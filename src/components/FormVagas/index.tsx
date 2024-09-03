@@ -2,6 +2,10 @@ import { FormEvent, useState } from 'react'
 
 import styles from './FormVagas.module.css'
 
+import { Form } from './styles'
+import { BtnPesquisar } from './styles'
+import { Campo } from './styles'
+
 type Props = {
   aoPesquisar: (termo: string) => void
 }
